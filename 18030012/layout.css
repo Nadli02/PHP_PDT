@@ -1,0 +1,146 @@
+	
+body {
+  font-family: Castellar;
+  padding: 10px;
+  background: url('image/crysis-3-1.jpg') no-repeat fixed;
+   -webkit-background-size: 100% 100%;
+   -moz-background-size: 100% 100%;
+   -o-background-size: 100% 100%;
+   background-size: 100% 100%;
+}
+
+* {
+        font-family: "Trebuchet MS";
+		 box-sizing: border-box;
+      }
+    table {
+      border: solid 1px #DDEEEE;
+      border-collapse: collapse;
+      border-spacing: 0;
+      width: 90%;
+      margin: 10px auto 10px auto;
+    }
+	button {
+          background-color: black;
+          color: #fff;
+          padding: 10px;
+          text-decoration: none;
+          font-size: 12px;
+          border: 0px;
+          margin-top: 20px;
+    }
+    label {
+      margin-top: 10px;
+      float: left;
+      text-align: left;
+      width: 100%;
+    }
+    input {
+      padding: 6px;
+      width: 100%;
+      box-sizing: border-box;
+      background: #f8f8f8;
+      border: 2px solid #ccc;
+      outline-color: salmon;
+    }
+    select {
+      padding: 6px;
+      width: 100%;
+      box-sizing: border-box;
+      background: #f8f8f8;
+      border: 2px solid #ccc;
+      outline-color: salmon;
+    }
+    div {
+      width: 100%;
+      height: auto;
+    }
+    .base {
+      width: 600px;
+      height: auto;
+      padding: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      background: #ededed;
+    }
+
+    table thead th {
+        background-color: #DDEFEF;
+        border: solid 1px #DDEEEE;
+        color: #336B6B;
+        padding: 10px;
+        text-align: left;
+        text-shadow: 1px 1px 1px #fff;
+        text-decoration: none;
+    }
+	h1 {
+        text-transform: uppercase;
+      }
+	h2 {
+        color: white;
+      }
+    table tbody td {
+        border: solid 1px #DDEEEE;
+        color: #333;
+		background: #ddd;
+        padding: 10px;
+        text-shadow: 1px 1px 1px #fff;
+    }
+    a {
+          background-color: black;
+          color: #fff;
+          padding: 10px;
+          text-decoration: none;
+          font-size: 12px;
+    }
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #ddd;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.footer {
+  padding: 8px;
+  text-align: center;
+  background: #ddd;
+  color: black;
+  margin-top: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .kolomkiri, .kolomkanan {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
